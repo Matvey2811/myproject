@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Voleyball_company</title>
+	<style type="text/css">
+		body {
+			font-family: Playfair Display;
+			scroll-behavior: smooth;
+			background-color: black;
+			color: white;
+		}
+
+		header {
+			height: 90px;
+			background-color: #1a1a1a;
+		}
+
+		main {
+			height: 1800px;
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-evenly;	
+		}
+
+		li {
+            list-style: none;
+            padding: 0px 50px;
+        }
+
+        a {
+        	text-decoration: none;
+        	color: blueviolet;
+        }
+
+        a:active {
+        	color: pink;
+        }
+
+        .meny {
+        	display: flex;
+        }
+
+        .vstup {
+        	display: flex;
+        	background-image: url("Pod.jpg");
+        	background-repeat: no-repeat;
+        	background-size: 35%;
+        	height: 300px;
+        	flex-direction: column;
+        	align-items: center;
+        }
+
+        .our_zal{
+        	display: flex;
+        	flex-direction: column;
+        	align-items: center;
+        	margin: 25px;
+        }
+
+        .zal {
+        	margin: 50px 0px;
+        	height: 400px;
+        }
+
+        .zali {
+        	display: flex;
+        	justify-content: space-evenly;
+        }
+
+        .vid {
+        	display: flex;
+        	flex-direction: column;
+        	align-items: center;
+        	padding: 50px 0px;
+        }
+
+        .st {
+        	padding: 50px 0px;
+        	display: flex;
+        	align-items: center;
+        	flex-direction: column;
+        }
+
+        .students {
+        	display: flex;
+        	justify-content: space-evenly;
+        }
+
+        .fir2 {
+        	display: flex;
+        	flex-direction: column;
+			width: 300px;
+			margin: 0px 50px;
+        }
+
+        .sec2 {
+        	display: flex;
+        	flex-direction: column;
+			width: 300px;
+			margin: 0px 50px;			
+        }
+
+        .thir2 {
+        	display: flex;
+        	flex-direction: column;
+			width: 300px;
+			margin: 0px 50px;
+        }
+
+        .school {
+        	display: flex;
+        	padding: 50px 0px;
+        	flex-direction: column;
+        	align-items: center;
+        }
+
+        .sh {
+        	display: flex;
+        	align-items: center;
+        	flex-direction: column;
+        	width: 500px;
+        }
+
+        .treners {
+        	padding: 50px 0px;
+        	display: flex;
+        	align-items: center;
+        	flex-direction: column;
+        }
+
+        .a_tren {
+        	display: flex;
+        	justify-content: space-evenly;
+        }
+
+        .fir {
+			display: flex;
+			flex-direction: column;
+			width: 250px;
+			margin: 0px 30px;	
+        }
+
+        .sec {
+			display: flex;
+			flex-direction: column;
+			width: 250px;
+			margin: 0px 30px;
+        }
+
+        .thir {
+			display: flex;
+			flex-direction: column;
+			width: 250px;
+			margin: 0px 30px;
+        }
+
+        .four {
+			display: flex;
+			flex-direction: column;
+			width: 250px;
+			margin: 0px 30px;
+        }
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="meny">
+			<img src="Voley_is_live.png" width="90px" height="85px">
+			<nav>
+				<ul>
+					<li><a href="#school">О Школе</a></li>
+					<li><a href="#zal">Наши Залы</a></li>
+					<li><a href="#vid">Видео С Тренировки</a></li>
+					<li><a href="#stud">Знаменитости</li>
+					<li><a href="#tren">Наши Тренеры</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="vstup">
+			<h3>RUSSIANVOLEYBALL</h3>
+			<h1>Школа Волейбола</h1>
+			<h4>Лучшая в Москве и области</h4>
+		</div>
+
+		<div class="school" id="school">
+			<h1>О нашей школе</h1>
+			<div class="sh">
+				<p>Увлекающие и требовательные тренеры, комфортные современные площадки и гибкое расписание, которое удобно подстроить под работу и жизнь. Мы делаем такую школу, где хотели бы заниматься сами и учить своих детей.</p>
+				<p>По нашему опыту наибольший прогресс дает комбинация из тренировок, игровой практики и турниров. На тренировках идет работа над техникой, тактикой и видением игры. Игровая практика позволяет применить навыки, закрепить их и почувствовать «вкус игры». На турнирах переживается эмоциональный накал соревнований и нарабатывается психологическая выдержка. В Russianvolley есть все эти три кита обучения, чтобы расти в волейболе было удобно, в компании друзей и с поддержкой тренеров.</p>
+			</div>
+		</div>
+
+		<div class="treners" id="tren">
+			<h1>Лучшие тренеры</h1>
+			<div class="a_tren">
+
+				<div class="fir">
+					<img src="https://rusvolley.ru/img/22537854.jpg" width="200px" height="250px">
+					<h2>Грибов Андрей</h2>
+					<h4>МС</h4>
+					<p>Более 15 лет играл в Италии в лигах B1 и A2. Сезон 2015-2016 провёл в национальной лиге Казахстана, где стал обладателем кубка.</p>
+				</div>
+
+				<div class="sec">
+					<img src="https://rusvolley.ru/img/26175889.jpg" width="200px" height="200px">
+					<h2>Бубнов Егор</h2>
+					<h4>КМС</h4>
+					<p>Выпускник СДЮСШОР 65 "НИКА", выступал за молодежную команду "Динамо" и студенческую команду РГУФКСМиТ. Победитель чемпионата Москвы, 3 место чемпионата России. Победитель студенческой лиги.</p>
+				</div>
+
+				<div class="thir">
+					<img src="https://rusvolley.ru/img/25170797.jpg" width="200px" height="200px">
+					<h2>Иванова Елизавета</h2>
+					<h4>КМС</h4>
+					<p>Участник и призер спартакиад, чемпионатов России и Москвы. Воспитанница легендарной СШОР №65 "Ника". Образование МГПУ «Технологии физического развития». Игрок ЛВЛ, МВЛ (миксты и женские).</p>
+				</div>
+
+				<div class="four">
+					<img src="http://rusvolley.ru/img/25997491.jpg" width="200px" height="200px">
+					<h2>Гаврилова Анастасия</h2>
+					<h4>КМС</h4>
+					<p>Чемпион первенства России в среднем возрасте; серебряный призер первенства России в старшем возрасте. Бронзовый призер чемпионата России (16-18 лет). Бронзовый призёр чемпионата России в составе команды «Динамо».</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="zal" id="zal">
+			<div class="our_zal">
+					<h1>Наши залы</h1>
+					<p>У нашей школы есть порядка 20 залов для пляжного и классического волейбола</p>		
+			</div>
+
+			<div class="zali">
+				<img src="https://sportishka.com/uploads/posts/2022-08/1660142667_25-sportishka-com-p-zal-dlya-voleibola-sport-krasivo-foto-40.jpg" width="400px" height="250px">
+				<img src="https://www.mateflex.com/assets/Courts/Web__FillWzI0MDAsMTA2Nl0.jpg" width="400px" height="250px">
+				<img src="https://www.rubbuk.com/wp-content/uploads/sites/2/2022/03/LeAF-Beach-Facility.jpg" width="400px" height="250px">
+			</div>
+		</div>
+
+		<div class="vid" id="vid">
+			<h1>Видео с наших тренировок</h1>
+			<p>Чтобы посмотреть видео перейдите по <a href="https://youtu.be/HH1AnQvNRXU">ссылке</a></p>
+		</div>
+
+		<div class="st" id="stud">
+			<h1>Знаменитости учившиеся у нас</h1>
+			<div class="students">
+				<div class="fir2">
+					<img src="http://img.championat.com/s/1350x900/news/big/a/p/maksim-mikhajlov_1395233757301891072.jpg" width="300px" height="200px">
+					<h2>Максим Михайлов</h2>
+					<p>Волейболист из России. Появился на свет 19.03.1988 года в Ленинградской области (поселок Кузьмоловский). Премьера в качестве спортсмена состоялась 14 июля 2008 года. В то время он выступал в сборной России по волейболу. В эту дату противником России была Корея, это был турнир Мировой лиги. Именно в этой игре Максим продемонстрировал свои способности. По сегодняшний день выдающийся мастер спорта Михайлов является игроком команды клуба «Зенит» и выступает за команду России.</p>
+				</div>
+
+				<div class="sec2">
+					<img src="https://img-cdn.business-gazeta.ru/images/5e/1449-271a39e098d5fe30ffef0e6e2b865240.jpg" width="300px" height="200px">
+					<h2>Семён Полтавский</h2>
+					<p>Выходец из Украины, города Одесса. Появился на свет 8 февраля 1981 года. В 1997-1998 годах он играет в команде клуба «Питер-Лада», в 1998-2002 годах – в клубах «Автомобилист» и «Балтика», в 2001-2003 годах – в итальянском клубе «Монтикьяри», в 2001-2010 годах – в «Динамо». В 2010-2011 годах он играет в составе клуба «Ярославич», а в 2011 году играл в составе клуба «Факел» (Новый Уренгой). Начиная с 2003 года, Семен ездит на соревнования в составе сборной России по волейболу.</p>
+				</div>
+
+				<div class="thir2">
+					<img src="https://sportishka.com/uploads/posts/2022-11/1667537646_9-sportishka-com-p-aleksandr-volkov-voleibolist-instagram-9.jpg" width="300px" height="200px">
+					<h2>Александр Волков</h2>
+					<p>Не менее прославившийся волейболист России. Появился на свет 14 февраля 1985 года. Личных достижений у Александра тоже много. Из них можно выделить несколько: в 2006 году он – лучший нападающий «Финала четырех» российского Кубка, в 2008 году – лучший блокирующий этого же этапа российского Кубка, а в 2006-2007 годах он – лучший блокирующий «Финала четырех» Лиги чемпионов. Также Волков – один из участников российских Матчей звезд в 2005, 2008, 2009 и 2010 годах.</p>
+				</div>
+
+			</div>
+		</div>
+
+
+	</main>
+
+</body>
+</html>
